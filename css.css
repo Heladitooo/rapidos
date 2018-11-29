@@ -1,0 +1,88 @@
+section
+{
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  border: 1px solid;
+  position: relative;
+  border-radius: 10px;
+}
+
+body
+{
+  display: grid;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+  font-family: arial;
+}
+
+.ddd
+{
+  display: grid;
+  text-align: center;
+  font-size: 50px;
+  justify-items: center;
+}
+
+h6, h5
+{
+  margin: 0;
+}
+
+.div
+{
+  background-color: black;
+  transition: 1s;
+  grid-column: 2 / 2;
+  border-radius: 10px;
+
+}
+
+.divi
+{
+  background-color: #ff6161;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+  border-radius: 10px;
+
+}
+
+#p
+{
+  animation-name: pa;
+  animation-duration: 1s;
+}
+
+@Keyframes color
+{
+  0%
+  {
+    background-color: #0088ff;
+  }
+  20%
+  {
+    background-color: white;
+  }
+  40%
+  {
+    background-color: #0088ff;
+
+  }
+  60%
+  {
+    background-color: white;
+
+  }
+  70%
+  {
+    background-color: #0088ff;
+
+  }
+  100%
+  {
+    background-color: #0088ff;
+
+  }
+}
